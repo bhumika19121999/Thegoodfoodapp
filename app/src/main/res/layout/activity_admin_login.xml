@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front2"
+    tools:context=".AdminLogin">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Address"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/admin_email"
+        android:autofillHints=""/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/admin_email"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/admin_password"
+        android:autofillHints=""/>
+    <TextView
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#FF79230D"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/admin_password"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/admin_btn"/>
+</RelativeLayout>

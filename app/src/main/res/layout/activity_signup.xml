@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/masalaimage"
+    tools:context=".Signup">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email address"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/signup_email"
+        android:autofillHints=""/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signup_email"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/signup_name"
+        android:autofillHints=""/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signup_name"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/signup_password"
+        android:autofillHints=""/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signup_password"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/confirm_pass"
+        android:autofillHints=""/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_mobile_number"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_below="@id/confirm_pass"
+        android:layout_centerHorizontal="true"
+
+        android:fontFamily="@font/aladin"
+        android:id="@+id/signup_mobile"
+        android:autofillHints=""/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signup_mobile"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/signup_add"
+        android:autofillHints=""/>
+
+    <TextView
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#FF1B4402"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signup_add"
+        android:fontFamily="@font/aladin"
+        android:id="@+id/reg_signup"/>
+
+</RelativeLayout>
